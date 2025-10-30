@@ -19,9 +19,16 @@ SemVer is a way of versioning software. Versioning software has been done in a v
 
 Each one of these components has meaning and provides the user with an understanding of the version. Let's start from the right with 'patch'. A patch version fixes something, for example a security patch. It doesn't add or remove any features and doesn't change any data formats or APIs. It should be considered an extremely low risk upgrade (and maybe even a risk to *not* upgrade). You can usually skip a patch version and still upgrade (the exceptions being where a patch fixes an issue in the upgrading process itself).
 
-A minor version is one that provides something new, but it doesn't change the data formats or APIs. A minor upgrade should be a low risk upgrade, but you shouldn't feel compelled to upgrade since the data formats and APIs are the same. You just might miss out on a feature, a performance improvement, or a bug fix but otherwise it's no damage. You don't generally have to upgrade to each minor version, so you could skip from 1.1.0 to 1.3.0 safely. 
+* minor version
+  * All minor versions are compatible with every other minor version for that major
+    * _Example:_ 1.2.0
+      * compatible -- with -- 1.3.2, 1.4.1, etc
+      * may NOT work -- with -- 2.0
+  * is one that provides something new, but it doesn't change the data formats or APIs. A minor upgrade should be a low risk upgrade, but you shouldn't feel compelled to upgrade since the data formats and APIs are the same. You just might miss out on a feature, a performance improvement, or a bug fix but otherwise it's no damage. You don't generally have to upgrade to each minor version, so you could skip from 1.1.0 to 1.3.0 safely. 
 
-Major versions are breaking changes. They provide new functionality and break the API or data format. Major version upgrades are higher risks in upgrades that might require you to switch tools or client libraries. You’ll want to upgrade in sequence to avoid any potential breakage in the upgrade process (1.x.x → 2.x.x → 3.x.x, but usually not 1.x.x directly to 3.x.x)
+* Major versions
+  * == ⚠️breaking changes⚠️
+  * They provide new functionality and break the API or data format. Major version upgrades are higher risks in upgrades that might require you to switch tools or client libraries. You’ll want to upgrade in sequence to avoid any potential breakage in the upgrade process (1.x.x → 2.x.x → 3.x.x, but usually not 1.x.x directly to 3.x.x)
 
 These changes can be consolidated, so it's valid for major releases to have new, unbreaking features and fixes, just not the other way around. For example, version 3.0.0 could include many fixes, features, and breaking changes, but 3.0.1 could not include any breaking changes or features when compared to 3.0.0.
 

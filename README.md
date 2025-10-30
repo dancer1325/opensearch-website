@@ -1,38 +1,25 @@
 <img src="https://opensearch.org/assets/img/opensearch-logo-themed.svg" height="64px">
-
-- [OpenSearch.org website](#opensearchorg-website)
-  - [Getting help](#getting-help)
-  - [Contributing](#contributing)
-    - [Adding to the Partners page](#adding-to-the-partners-page)
-    - [Writing a blog](#writing-a-blog)
-    - [Building the website](#building-the-website)
-    - [Testing](#testing)
-      - [Link checker](#link-checker)
-  - [Code of Conduct](#code-of-conduct)
-  - [Security](#security)
-  - [License](#license)
-  - [Credits](#credits)
-  - [Copyright](#copyright)
   
 # OpenSearch.org website
 
-This repo contains the source for the [opensearch.org](https://opensearch.org/) website. 
+* == [opensearch.org](https://opensearch.org/) website
+
+## Documentation
+
+* [home page](/opensearch-website/_layouts/homepage.md)
+* [top navigation through sections]()
 
 ## Getting help
 
-If you find a bug, or have a feature request, please don't hesitate to open an issue in this repository. 
-
-If you need help and are unsure where to open an issue, try [forums](https://forum.opensearch.org/).
+* [forums](https://forum.opensearch.org/)
 
 ## Contributing
 
-We welcome contributions! Please see our [CONTRIBUTING](CONTRIBUTING.md) page to learn more about how to contribute to the website. 
-
-_Note:_ As of July 20, 2021, contributions are welcome on the `main` branch; the `prod` branch is now protected and holds the finalized version of the site. The `staging` branch has been removed and is no longer being used.
+* [CONTRIBUTING](https://github.com/opensearch-project/.github/blob/main/CONTRIBUTING.md) 
 
 ### Adding to the Partners page
 
-If you are a partner, you are welcome to add your logo/link to our partners page. Please copy and edit the [sample file](_partners/_sample.md), and submit a pull request.
+* TODO: If you are a partner, you are welcome to add your logo/link to our partners page. Please copy and edit the [sample file](_partners/_sample.md), and submit a pull request.
 
 ### Writing a blog
 
@@ -48,12 +35,11 @@ The blog post review process is as follows:
 
 **NOTE**: To update an existing blog post, submit a PR with the updates. Do not update existing blog posts as part of a new blog post PR.
 
-For writing guidelines, see the [OpenSearch Project Style Guidelines](https://github.com/opensearch-project/documentation-website/blob/main/STYLE_GUIDE.md).
-
-If you need help, contact [pajuric](https://github.com/pajuric).
+* [Style Guidelines](https://github.com/opensearch-project/documentation-website/blob/main/STYLE_GUIDE.md)
 
 ### Building the website
 
+* TODO: 
 This site uses [Jekyll](https://jekyllrb.com/). You can build the site and make it available on a local server via `docker-compose up -d`, or by installing all the dependencies on your local environment as follows (tested to work with Ruby 2.7.2).
 
 1. Install [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/), then run `bundle install`.
@@ -100,10 +86,6 @@ They both accept the same values with the only difference being that `JEKYLL_FAT
 3. **all**: validates all links. however this option does not retry retry-able link or follow redirection links. e.g. HTTP:429 (too many attempts, retry after), HTTP:301 (Permanent redirect)
 4. **retry**: validates all the links but also retries links with retry-able HTTP header 
 
-## Code of Conduct
-
-This project has adopted the [Amazon Open Source Code of Conduct](CODE_OF_CONDUCT.md). For more information see the [Code of Conduct FAQ](https://aws.github.io/code-of-conduct-faq), or contact [opensource-codeofconduct@amazon.com](mailto:opensource-codeofconduct@amazon.com) with any additional questions or comments.
-
 ## Security
 
 If you discover a potential security issue in this project we ask that you notify OpenSearch Security directly via email to security@opensearch.org. Please do **not** create a public GitHub issue.
@@ -115,7 +97,3 @@ This project is licensed under the [BSD-3-Clause License](LICENSE).
 ## Credits
 
 This website was forked from the BSD-licensed [djangoproject.com](https://github.com/django/djangoproject.com).
-
-## Copyright
-
-Copyright OpenSearch Contributors. 

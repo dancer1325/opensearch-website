@@ -49,9 +49,28 @@ hero_images:
     alt: 'OpenSearch platform for search applications hero banner.'
 ---
 
-Artificial intelligence (AI) has transformed process optimization, analytics, and customer experiences. Now, machine learning (ML) models are powering the next leap forward through vector search. By embedding models that can encode the meaning and context of documents, images, and audio into vectors for similarity-driven searches, vector search unlocks powerful ML and AI tooling and capabilities.
+* Artificial intelligence (AI)
+  * has transformed 
+    * process optimization,
+    * analytics,
+    * customer experiences
+  * \+ ML models 
+    * -> power -- , via vector search, -- the next step 
 
-OpenSearch brings traditional search, analytics, and vector search together in one solution. By reducing the effort you need to operationalize, manage, and integrate AI-generated assets, OpenSearch’s vector database capabilities accelerate ML and AI application development. Built-in performance and scalability allow you to power vector, lexical, and hybrid search and analytics across all your models, vectors, and metadata. Enhance information retrieval and analytics, improve efficiency and stability, and give your generative AI models the resources to deliver more accurate and intelligent responses.
+* vector search
+  * == technology /
+    * 👀convert meaning and context of documents + images + audio -- into -- math vectors👀
 
-
-
+* OpenSearch
+  * built-in searches | ALL your models + vectors + metadata
+    * traditional (== lexical) search
+      * == -- via -- keywords
+    * analytics,
+    * vector search
+  * ’s vector database capabilities
+    * 👀accelerate ML & AI application development👀
+      * Reason:🧠 operationalize + manage + integrate AI-generated assets🧠
+  * benefits
+    * information retrieval & analytics
+    * efficiency & stability 
+    * your generative AI models can reply MORE accurate & intelligent
