@@ -6,6 +6,7 @@
     * enterprise-grade
     * provides
       * order | unstructured data
+  * == 👀OpenSearch (forked from Elasticsearch 7.10.2) + OpenSearch Dashboards (forked from Kibana 7.10.2) + featureS (security, anomaly detection, alerting, observability experiences)👀
 
 # OpenSearch Capabilities
 
