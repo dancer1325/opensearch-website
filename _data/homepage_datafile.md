@@ -4,6 +4,10 @@
   * == 💡search & observability suite💡
     * open-source
     * enterprise-grade
+    * distributed
+    * HIGH performant
+    * scaling -- based on -- needs
+    * -- based on -- [Apache Lucene](https://lucene.apache.org/)
     * provides
       * order | unstructured data
   * == 👀OpenSearch (forked from Elasticsearch 7.10.2) + OpenSearch Dashboards (forked from Kibana 7.10.2) + featureS (security, anomaly detection, alerting, observability experiences)👀
@@ -111,12 +115,6 @@
 * Image: `/assets/img/homepage-assets/OSC2024_Europe.png`
 * URL: `https://opensearch.org/events/opensearchcon/2024/europe/index.html`
 
-# Foundation
+# OpenSearch Software Foundation
 
-* OpenSearch Software Foundation
-* The OpenSearch Software Foundation is the exciting next chapter for the OpenSearch Project * formed in September 2024
-* As a new project of the Linux Foundation * we're more excited than ever to open this project up to the community
-* Learn more about the OpenSearch Software Foundation * to help us build the next great innovations in search together
-* Button: Visit foundation.opensearch.org
-* Button URL: `https://foundation.opensearch.org`
-* Logo: `/assets/img/homepage-assets/Banner_Logo_Foundation.png`
+* [here](https://github.com/dancer1325/opensearch-foundation-website)
