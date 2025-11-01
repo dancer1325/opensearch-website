@@ -5,6 +5,7 @@
     * open-source
     * enterprise-grade
     * distributed
+      * == you can run OpenSearch | MULTIPLE nodeS
     * HIGH performant
     * scaling -- based on -- needs
     * -- based on -- [Apache Lucene](https://lucene.apache.org/)
