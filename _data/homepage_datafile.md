@@ -26,7 +26,7 @@
   * [anomaly detection](/opensearch-website/_data/usecases/page_anomalyDetection_datafile.md)
 
 ## Search
-* Build smarter * more efficient search solutions for your applications
+* TODO: Build smarter * more efficient search solutions for your applications
 * URL: `/platform/search/index.html`
 * Icon: `/assets/img/homepage-assets/Icon_Lexical_Search.png`
 * E-Commerce: `/docs/latest/search-plugins/searching-data/index/`
